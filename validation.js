@@ -78,3 +78,6 @@ allInputs.forEach(input => {
     }
   })
 })
+document.getElementById("HomePage").onclick = function () {
+  window.location.href = "index.html";
+};
