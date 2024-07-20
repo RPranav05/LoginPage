@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="mainPage">
+        <div class="HomePage">
+            <button class="Home" id="LoginButton">Login</button>
+            <button class="Home" id="SignupButton">Signup</button>
+        </div>
+    </div>
+    <div class="div-Home">
+        <h1>Welcome to the home page</h1>
+    </div>
+
+    <script>
+        document.getElementById("LoginButton").onclick = function () {
+            window.location.href = "login.html";
+        };
+        document.getElementById("SignupButton").onclick = function () {
+            window.location.href = "signup.html";
+        };
+    </script>
+</body>
+</html>
